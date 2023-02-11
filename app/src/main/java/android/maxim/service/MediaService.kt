@@ -11,7 +11,7 @@ class MediaService: Service() {
     private lateinit var myMediaPlayer: MediaPlayer
 
     override fun onBind(intent: Intent?): IBinder? {
-        throw UnsupportedOperationException("This operation are not implemented")
+        throw UnsupportedOperationException("This operation is not implemented")
     }
 
     override fun onCreate() {
